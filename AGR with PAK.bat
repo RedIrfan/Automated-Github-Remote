@@ -44,10 +44,6 @@ set /p confirm_remote="is that right? (press anything to continue)"
 
 git remote add %remote_name% %full_modified_webpath%
 	
-echo "done."
-	
-rem erases the github account on this computer
-git config --global --unset user.name
-git config --global --unset user.email
+echo done.
 
 pause
